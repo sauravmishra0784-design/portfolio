@@ -1,0 +1,19 @@
+{
+  "name": "personal-portfolio-tailwind",
+  "version": "1.0.0",
+  "description": "Portfolio website built with Tailwind CSS",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "portfolio",
+    "tailwind"
+  ],
+  "author": "Saurav Mishra",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.18"
+  }
+}
